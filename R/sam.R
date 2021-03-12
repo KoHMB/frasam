@@ -192,7 +192,7 @@ sam <- function(dat,
 
   if (SR=="RW") {
     map$rec_loga <- map$rec_logb <- factor(NA)
-    map$trans_phi1 <- factor(NA)
+    #map$trans_phi1 <- factor(NA)
   } else {
     if (AR==0) map$trans_phi1 <- factor(NA)
     # if (AR==1) map$phi2 <- factor(NA)
