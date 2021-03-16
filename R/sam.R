@@ -174,7 +174,7 @@ sam <- function(dat,
       # logScaleSSB  = if(any(data$fleetTypes %in% c(3,4))) {numeric(0)} else {numeric(0)},
       # logPowSSB    = if(any(data$fleetTypes == 4))        {numeric(0)} else {numeric(0)},
       # logSdSSB     = if(any(data$fleetTypes %in% c(3,4))) {numeric(0)} else {numeric(0)},
-      U = U_init,
+      U = U_init
       #trans_phi1 = 0
     )
   } else {
