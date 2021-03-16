@@ -175,7 +175,7 @@ sam <- function(dat,
       # logPowSSB    = if(any(data$fleetTypes == 4))        {numeric(0)} else {numeric(0)},
       # logSdSSB     = if(any(data$fleetTypes %in% c(3,4))) {numeric(0)} else {numeric(0)},
       U = U_init,
-      trans_phi1 = 0
+      #trans_phi1 = 0
     )
   } else {
     params <- p0.list
@@ -194,7 +194,7 @@ sam <- function(dat,
     map$rec_loga <- map$rec_logb <- factor(NA)
     #map$trans_phi1 <- factor(NA)
   } else {
-    if (AR==0) map$trans_phi1 <- factor(NA)
+    #if (AR==0) map$trans_phi1 <- factor(NA)
     # if (AR==1) map$phi2 <- factor(NA)
   }
 
